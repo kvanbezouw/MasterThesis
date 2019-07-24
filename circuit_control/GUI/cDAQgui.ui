@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>305</width>
+    <height>291</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>cDAQ GUI Yellow lab</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/Users/LocalAdmin/Documents/Python Scripts/NewFocus/Images/cDAQ.png</normaloff>C:/Users/LocalAdmin/Documents/Python Scripts/NewFocus/Images/cDAQ.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>300</width>
+     <height>250</height>
+    </size>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QTabWidget" name="TabWidgetcDAQ">
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Triangular</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <property name="tabBarAutoHide">
+       <bool>false</bool>
+      </property>
+      <widget class="QWidget" name="cDAQ1Mod1">
+       <attribute name="title">
+        <string>cDAQ1Mod1</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="1">
+         <widget class="QGroupBox" name="groupBox">
+          <property name="title">
+           <string/>
+          </property>
+          <widget class="QGroupBox" name="cDAQ1Mod2Groupbox">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>251</width>
+             <height>171</height>
+            </rect>
+           </property>
+           <property name="title">
+            <string>Output mod 1</string>
+           </property>
+           <widget class="QWidget" name="gridLayoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>19</x>
+              <y>19</y>
+              <width>221</width>
+              <height>141</height>
+             </rect>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_7">
+             <item row="2" column="0">
+              <widget class="QLabel" name="cDAQ1Mod1ao1label">
+               <property name="text">
+                <string>  ao1</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="cDAQ1Mod1ao3label">
+               <property name="text">
+                <string>  ao3</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QLabel" name="cDAQ1Mod1ActualOLabel">
+               <property name="text">
+                <string>Current output (V)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="cDAQ1Mod1ChannelLabel">
+               <property name="text">
+                <string>Channel</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="cDAQ1Mod1ao2label">
+               <property name="text">
+                <string>  ao2</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <widget class="QLineEdit" name="cDAQ1Mod1ao2OLabel"/>
+             </item>
+             <item row="1" column="1">
+              <widget class="QLineEdit" name="cDAQ1Mod1ao0OLabel"/>
+             </item>
+             <item row="2" column="1">
+              <widget class="QLineEdit" name="cDAQ1Mod1ao1OLabel"/>
+             </item>
+             <item row="4" column="1">
+              <widget class="QLineEdit" name="cDAQ1Mod1ao3OLabel"/>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="cDAQ1Mod1ao0label">
+               <property name="text">
+                <string>  ao0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <widget class="QLabel" name="cDAQ1Mod1SetOLabel">
+               <property name="text">
+                <string>Set output (V)</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QLabel" name="cDAQ1Mod1ao0COLabel">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QLabel" name="cDAQ1Mod1ao1COLabel">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2">
+              <widget class="QLabel" name="cDAQ1Mod1ao2COLabel">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="2">
+              <widget class="QLabel" name="cDAQ1Mod1ao3COLabel">
+               <property name="text">
+                <string>0</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="TabWidgetcDAQModsTab2">
+       <attribute name="title">
+        <string>cDAQ1Mod2</string>
+       </attribute>
+       <widget class="QGroupBox" name="cDAQ1Mod2Groupbox_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>251</width>
+          <height>171</height>
+         </rect>
+        </property>
+        <property name="title">
+         <string>Output mod 1</string>
+        </property>
+        <widget class="QWidget" name="gridLayoutWidget_3">
+         <property name="geometry">
+          <rect>
+           <x>19</x>
+           <y>19</y>
+           <width>221</width>
+           <height>141</height>
+          </rect>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="2" column="0">
+           <widget class="QLabel" name="cDAQ2Mod1ao1label">
+            <property name="text">
+             <string>  ao1</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="cDAQ1Mod2ao3label">
+            <property name="text">
+             <string>  ao3</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="cDAQ1Mod2ActualOLabel">
+            <property name="text">
+             <string>Current output (V)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="cDAQ1Mod2ChannelLabel">
+            <property name="text">
+             <string>Channel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="cDAQ2Mod2ao2label">
+            <property name="text">
+             <string>  ao2</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="cDAQ1Mod2ao2OLabel"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="cDAQ1Mod2ao0OLabel"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="cDAQ1Mod2ao1OLabel"/>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="cDAQ1Mod2ao3OLabel"/>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="cDAQ1Mod2ao0label">
+            <property name="text">
+             <string>  ao0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="cDAQ1Mod2SetOLabel">
+            <property name="text">
+             <string>Set output (V)</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLabel" name="cDAQ1Mod2ao0COLabel">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLabel" name="cDAQ1Mod2ao1COLabel">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QLabel" name="cDAQ1Mod2ao2COLabel">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QLabel" name="cDAQ1Mod2ao3COLabel">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>cDAQ1Mod3</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="1" column="0">
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string>Input mod 3</string>
+          </property>
+          <widget class="QWidget" name="gridLayoutWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>111</width>
+             <height>141</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_8">
+            <item row="2" column="0">
+             <widget class="QLabel" name="cDAQ1Mod3ai1label">
+              <property name="text">
+               <string>  ai1</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QLabel" name="cDAQ1Mod3ai3label">
+              <property name="text">
+               <string>  ai3</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="cDAQ1Mod3ai2label">
+              <property name="text">
+               <string>  ai2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="cDAQ1Mod3ChannelLabel">
+              <property name="text">
+               <string>Channel</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="cDAQ1Mod3InputLabel">
+              <property name="text">
+               <string>Input (V)</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="cDAQ1Mod3ai0label">
+              <property name="text">
+               <string>  ai0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="cDAQ1Mod3ai0InputLabel">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLabel" name="cDAQ1Mod3ai1InputLabel">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLabel" name="cDAQ1Mod3ai2InputLabel">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLabel" name="cDAQ1Mod3ai3InputLabel">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QCheckBox" name="checkBoxcDAQ1Mod3LiveDat">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>170</y>
+             <width>287</width>
+             <height>17</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>Acquire live data</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>305</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAbout">
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="statusTip">
+     <string>Some generic information on this GUI</string>
+    </property>
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionMANN"/>
+   </widget>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMANN">
+   <property name="text">
+    <string>MANN</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>cDAQ1Mod1ao0OLabel</tabstop>
+  <tabstop>cDAQ1Mod1ao1OLabel</tabstop>
+  <tabstop>cDAQ1Mod1ao2OLabel</tabstop>
+  <tabstop>cDAQ1Mod1ao3OLabel</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

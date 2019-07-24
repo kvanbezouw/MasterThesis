@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>275</width>
+    <height>501</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <widget class="QComboBox" name="comboBox_pd_detection_fine_scan">
+       <item>
+        <property name="text">
+         <string>ai0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai7</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_MZ_detection">
+       <item>
+        <property name="text">
+         <string>ai0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai7</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_test_detection">
+       <item>
+        <property name="text">
+         <string>ai0</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai1</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai3</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai4</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai5</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai6</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ai7</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_sweep_range">
+       <property name="text">
+        <string>2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="textedit_center_wavelength">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>1520</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_plotting_fine_scan">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <item>
+        <property name="text">
+         <string>Tapered vs detuning</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PDdisk vs V</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Det vs V</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MZ vs V</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Test vs V</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>power_scan_first</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>power_scan_middle</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>power_scan_last</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>power_scan_first_run_2</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>power_scan_ref</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_avg_over_x_steps">
+       <property name="text">
+        <string>4</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="ps_scaling">
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_amplification">
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="detection_label">
+       <property name="text">
+        <string>Tap. fib.  detection</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Mach Zend. detection</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Test detection</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Sweep range [V]</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_wavelength">
+       <property name="text">
+        <string>Wavelength [nm]</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="plot_label">
+       <property name="text">
+        <string>Plot</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Avg over # runs</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Power scaling</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Amplification</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btn_scan">
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>scan</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="btn_fit">
+     <property name="maximumSize">
+      <size>
+       <width>100</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>Fit</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <layout class="QVBoxLayout" name="verticalLayout_9">
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>20</width>
+         <height>40</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_save_fit">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>save fit</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_save_power_meas">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>save power meas</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_save">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>save</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout_8">
+     <item>
+      <widget class="QLabel" name="label_save_note">
+       <property name="text">
+        <string>save note:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="info_text">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>100</width>
+         <height>400</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="btn_power_measurement">
+     <property name="text">
+      <string>Power Meas.</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="btn_fine_scan_loop">
+     <property name="text">
+      <string>Fine scan loop</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
